@@ -1,0 +1,128 @@
+BASE 
+512 - 0.961
+1024 - 22.882
+2048 - 318.178
+
+
+ARQUIVO externo.o
+    NUM_ THREADS = 1
+    512 - 1.099 seconds.
+    1024 - 29.394 seconds.
+    2048 - 415.055 seconds.
+
+    NUM_ THREADS = 2
+    512 - 0.748 seconds.
+    1024 - 11.411 seconds.
+    2048 - 211.718 seconds.
+
+    NUM_ THREADS = 4
+    512 - 0.558 seconds.
+    1024 - 7.666 seconds.
+    2048 - 99.069 seconds.
+
+    NUM_ THREADS = 8
+    512 - 0.334 seconds.
+    1024 - 5.244 seconds.
+    2048 - 115.613 seconds.
+
+    NUM_ THREADS = 16
+    512 - 0.301 seconds.
+    1024 - 6.600 seconds.
+    2048 - 117.889 seconds.
+
+    NUM_ THREADS = 32
+    512 - 0.323 seconds.
+    1024 - 6.081 seconds.
+    2048 - 120.496 seconds.
+
+    NUM_ THREADS = 64
+    512 - 0.336 seconds.
+    1024 - 5.082 seconds.
+    2048 - 114.689 seconds.
+
+    NUM_ THREADS = 128
+    512 - 0.307 seconds.
+    1024 - 5.747 seconds.
+    2048 - 113.155 seconds.
+
+ARQUIVO interno.o
+    NUM_ THREADS = 1
+    512 - 1.422 seconds.
+    1024 - 31.675 seconds.
+    2048 - 392.699 seconds.
+
+    NUM_ THREADS = 2
+    512 - 0.874 seconds.
+    1024 - 17.315 seconds.
+    2048 - 214.178 seconds.
+
+    NUM_ THREADS = 4
+    512 - 0.837 seconds.
+    1024 - 7.421 seconds.
+    2048 - 135.151 seconds.
+
+    NUM_ THREADS = 8
+    512 - 1.227 seconds.
+    1024 - 10.210 seconds.
+    2048 - 173.459 seconds.
+
+    NUM_ THREADS = 16
+    512 - 42.415 seconds.
+    1024 - 179.550 seconds.
+    2048 - 659.230 seconds.
+
+    NUM_ THREADS = 32
+    512 - 49.471 seconds.
+    1024 - 200.451 seconds.
+    2048 - 1481.362 seconds.
+
+    NUM_ THREADS = 64
+    512 -: 130.260 seconds.
+    1024 - 449.726 seconds.
+    2048 - 2287.444 seconds.
+
+    NUM_ THREADS = 128
+    512 - 185.830 seconds.
+    1024 - 747.312 seconds.
+    2048 - 3030.685 seconds.
+
+ARQUIVO intermediario.o
+    NUM_ THREADS = 1
+    512 - 1.085 seconds.
+    1024 - 13.793 seconds.
+    2048 - 370.780 seconds.
+
+    NUM_ THREADS = 2
+    512 - 0.572 seconds.
+    1024 - 8.090 seconds.
+    2048 - 179.876 seconds.
+
+    NUM_ THREADS = 4
+    512 - 0.289 seconds.
+    1024 - 3.438 seconds.
+    2048 - 100.610 seconds.
+
+    NUM_ THREADS = 8
+    512 - 0.239 seconds.
+    1024 - 3.036 seconds.
+    2048 - 79.131 seconds.
+
+    NUM_ THREADS = 16
+    512 - 0.370 seconds.
+    1024 - 4.099 seconds.
+    2048 - 80.776 seconds.
+
+    NUM_ THREADS = 32
+    512 - 0.364 seconds.
+    1024 - 3.862 seconds.
+    2048 - 80.437 seconds.
+
+    NUM_ THREADS = 64
+    512 - 0.476 seconds.
+    1024 - 3.586 seconds.
+    2048 - 81.828 seconds.
+    NUM_ THREADS = 128
+
+    512 - 0.598 seconds.
+    1024 - 4.532 seconds.
+    2048 - 82.823 seconds.
